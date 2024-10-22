@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adopsi Hewan - Formulir Adopsi</title>
+    <style>
+        body { background-color: #e8f5e9; font-family: Arial, sans-serif; }
+        h1 { color: #2e7d32; text-align: center; }
+        nav a { margin: 10px; text-decoration: none; color: #007bff; }
+        nav { text-align: center; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Formulir Adopsi</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="daftar-hewan.html">Daftar Hewan</a>
+        <a href="tips-adopsi.html">Tips Adopsi</a>
+        <a href="tentang-kami.html">Tentang Kami</a>
+    </nav>
+    <form>
+        Nama Lengkap: <input type="text" name="nama" required><br><br>
+        Alamat: <input type="text" name="alamat" required><br><br>
+        Nomor Telepon: <input type="text" name="telepon" required><br><br>
+        Pilih Hewan: 
+        <select name="hewan">
+            <option value="max">Max (Anjing)</option>
+            <option value="whiskers">Whiskers (Kucing)</option>
+            <option value="coco">Coco (Burung)</option>
+        </select><br><br>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
